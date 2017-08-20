@@ -79,7 +79,7 @@ li {
   margin-top: 1em;
 }
 
-#work .resume {
+#index .button {
   border: 1px solid #2F2F2F;
   color: #2F2F2F;
   display: block;
@@ -94,7 +94,7 @@ li {
   transition: all 200ms;
 }
 
-#work .resume:hover {
+#index  .button:hover {
   text-decoration: none;
   color: #959595;
   border: 1px solid #959595;
@@ -106,7 +106,7 @@ li {
 
 #contact {
   background-color: #2F2F2F;
-  height: 17em;
+  height: 14em;
 }
 
 #contact .links {
