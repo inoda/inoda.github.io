@@ -1,11 +1,22 @@
-/* START COMMON */
 * {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2, h3 {
+body {
+  padding: 50px 20px 100px 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3, h4, h5 {
   margin: 0;
   font-weight: 300;
+}
+
+ul, p {
+  color: #333;
+  line-height: 1.5em;
 }
 
 ul {
@@ -16,157 +27,14 @@ ul {
 li {
   list-style: none;
   margin: 0;
-  line-height: 1.5em;
+  margin-top: 10px;
 }
 
 .spacer {
-  width: 100%;
-  height: 1px;
-  background-color: #bfbfbf;
-  margin: 5em 0;
+  margin: 45px;
 }
 
-#footer {
-  background-color: #1C1C1C;
-  color: #959595;
-  height: 5em;
-  text-align: center;
-}
-
-#footer p {
-  margin: 0;
-  padding-top: 2.5em;
-  font-weight: 300;
-  font-size: 0.8em;
-}
-/* END COMMON */
-
-/* START INDEX */
-#index {
-  color: #2F2F2F;
-  text-align: center;
-}
-
-#index a {
-  color: #959595;
-  text-decoration: none;
-}
-
-#index a:hover {
-  text-decoration: underline;
-}
-
-#index img {
-  max-width: 12em;
-  margin-top: 1.5em;
+.img {
+  max-width: 170px;
   border-radius: 100%;
-}
-
-#index .section {
-  margin: 5em auto;
-  text-align: center;
-  padding: 0 5em;
-  max-width: 70em;
-}
-
-#about .text p {
-  font-size: 1.3em;
-  font-weight: 300;
-  line-height: 1.3em;
-}
-
-#work ul {
-  margin-top: 1em;
-}
-
-#index .button {
-  border: 1px solid #2F2F2F;
-  color: #2F2F2F;
-  display: block;
-  max-width: 20em;
-  margin: 0 auto;
-  margin-top: 1em;
-  padding: 0.8em 1em;
-  font-weight: 300;
-  -webkit-transition: all 200ms;
-  -moz-transition: all 200ms;
-  -o-transition: all 200ms;
-  transition: all 200ms;
-}
-
-#index  .button:hover {
-  text-decoration: none;
-  color: #959595;
-  border: 1px solid #959595;
-}
-
-#work .open-source {
-  margin-top: 4em;
-}
-
-#contact {
-  background-color: #2F2F2F;
-  height: 14em;
-}
-
-#contact .links {
-  padding-top: 5em;
-  color: #959595;
-}
-
-#contact h1 {
-  margin-bottom: 0.5em;
-}
-
-#contact a {
-  color: #959595;
-  font-size: 3em;
-  margin: 0 0.1em;
-  -webkit-transition: color 200ms;
-  -moz-transition: color 200ms;
-  -o-transition: color 200ms;
-  transition: color 200ms;
-}
-
-#contact a:hover {
-  color: #ccc
-}
-/* END INDEX */
-
-@media screen and (max-width: 1000px) {
-  #index #banner {
-    padding: 0 1em;
-  }
-
-  #index #banner .float-wrapper {
-    max-width: 100%;
-    text-align: center;
-  }
-
-  #index #banner .text {
-    margin-top: 0;
-    padding-top: 4em;
-    float: none;
-  }
-
-  #index #banner img {
-    float: none;
-    max-width: 7em;
-    margin-top: 2em;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  li {
-    margin: 1em 0;
-  }
-
-  #index #banner .text {
-    text-align: center;
-    padding: 4em 0 0 0;
-  }
-
-  #index #banner h2 {
-    font-size: 1em;
-  }
 }
