@@ -1,9 +1,9 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif, Arial, Helvetica;
 }
 
 body {
-  padding: 50px 20px 100px 20px;
+  padding: 80px 20px 100px 20px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -37,5 +37,4 @@ li {
 .img {
   max-width: 120px;
   border-radius: 10px;
-  opacity: 0.8;
 }
