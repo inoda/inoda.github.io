@@ -1,9 +1,6 @@
 body {
   background-color: rgb(25, 25, 25);
   color: rgb(212, 212, 212);
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20px;
 }
 
 a {
@@ -11,72 +8,40 @@ a {
 }
 
 a:hover {
-  color: rgb(239, 239, 239);
+  color: rgb(243, 243, 243);
 }
 
 .content {
-  display: flex;
-  align-items: center;
-  column-gap: 50px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 100px 15px 80px 15px;
 }
 
-.text {
-  max-width: 450px;
+nav {
+  display: flex;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  column-gap: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 14px;
 }
 
 .muted {
   color: rgb(114, 114, 114);
 }
 
-.headshot {
-  margin-bottom: -10px;
-  max-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.headshot p {
-  text-align: center;
-  font-size: 12px;
-  margin: 0;
-}
-
-.headshot img {
-  width: 100%;
-  border-radius: 5px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  max-width: 400px;
-}
-
-ul li {
-  display: flex;
-  justify-content: space-between;
-}
-
-li a {
+nav a {
   text-decoration: none;
-  margin-bottom: 5px;
-  display: block;
+  padding-top: 10px;
+  color: rgb(114, 114, 114);
+  border-top: 3px solid transparent;
 }
 
-@media screen and (max-width: 800px) {
-  .content {
-    display: block;
-  }
+nav a.active {
+  border-top: 3px solid rgb(114, 114, 114);
+}
 
-  .headshot {
-    display: none;
-  }
+nav a:hover {
+  color: rgb(229, 229, 229);
+  border-top: 3px solid rgb(229, 229, 229);
 }
